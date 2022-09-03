@@ -34,6 +34,7 @@ Users should be able to:
 ## My process
 
 - Main div for rating component
+  - Note the gradation on the body of the card
 - Align elements in card
 - Add hover states
 - onClick() function to transition to 'thank you' state
