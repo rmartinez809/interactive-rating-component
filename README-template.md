@@ -33,6 +33,11 @@ Users should be able to:
 
 ## My process
 
+- Main div for rating component
+- Align elements in card
+- Add hover states
+- onClick() function to transition to 'thank you' state
+
 ### Built with
 
 - Semantic HTML5 markup

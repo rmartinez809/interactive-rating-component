@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.rating-component {
+    background: rgb(34,41,51);
+    background: linear-gradient(180deg, rgba(34,41,51,1) 0%, rgba(23,30,40,1) 100%);
+
+    border-radius: 1.25rem;
+    width: 24rem;
+    height: 24rem;
+    padding: 1.75rem;
+}
+
+#star-icon {
+    background-color: #26303E;
+    border-radius: 50%;
+    padding: 1rem;
+
+}
+
+h1 {
+    color: #FBFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #727882
+}
+
+.state-thank-you {
+    display: none;
+}
