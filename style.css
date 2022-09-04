@@ -1,0 +1,76 @@
+body {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.bg-color {
+    background-color: #26303E;
+}
+
+.circle-radius {
+    border-radius: 50%;
+}
+
+.rating-component {
+    background: rgb(34,41,51);
+    background: linear-gradient(180deg, rgba(34,41,51,1) 0%, rgba(23,30,40,1) 100%);
+
+    border-radius: 1.5rem;
+    width: 22rem;
+    padding: 1.85rem;
+}
+
+#star-icon {
+    padding: 1rem;
+
+}
+
+h1 {
+    color: #FBFFFF;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-top: 1.75rem;
+}
+
+p, li {
+    color: #8b919b;
+    font-size: 0.95rem;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 1.5rem;;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    color: #FBFFFF;
+    border: none;
+    padding: 0.8rem;
+    font-size: 0.95rem;
+    border-radius: 2rem;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.state-thank-you {
+    display: none;
+}
+
