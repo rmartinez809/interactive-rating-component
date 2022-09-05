@@ -1,3 +1,8 @@
+:root {
+    --white-color: #FBFFFF;
+    --organge-color: hsl(25, 97%, 53%);
+}
+
 body {
     width: 100vw;
     height: 90vh;
@@ -26,13 +31,18 @@ body {
     padding: 1.85rem;
 }
 
+/* FOR TESTING */
+/* .state-rating {
+    display: none;
+} */
+
 #star-icon {
     padding: 1rem;
 
 }
 
 h1 {
-    color: #FBFFFF;
+    color: var(--white-color);
     font-weight: 700;
     font-size: 1.75rem;
     margin-top: 1.75rem;
@@ -58,19 +68,58 @@ li {
     margin: 0.5rem;
 }
 
+li:hover {
+    background-color: var(--organge-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.rating-active {
+    background-color: var(--organge-color);
+    color: var(--white-color);
+}
+
 button {
     width: 100%;
-    background-color: hsl(25, 97%, 53%);
-    color: #FBFFFF;
+    background-color: var(--organge-color);
+    color: var(--white-color);
     border: none;
     padding: 0.8rem;
     font-size: 0.95rem;
     border-radius: 2rem;
     font-family: 'Overpass', sans-serif;
+}
 
+button:hover {
+    background-color: var(--white-color);
+    color: var(--organge-color);
+    cursor: pointer;
 }
 
 .state-thank-you {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.state-thank-you img {
+    margin-top: 0.5rem;
+}
+
+#rating-preview {
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius:2rem;
+    color: var(--organge-color);
+}
+
+.state-thank-you h1 {
+    margin-bottom: 0;
+}
+
+.state-thank-you p {
+    text-align: center;
+    padding: 0.25rem;
 }
 
