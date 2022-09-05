@@ -34,6 +34,8 @@ let submitRating = () => {
     else {
         stateRating.style.display="none";
 
-        stateThankYou.style.display="block";
+        stateThankYou.style.display="flex";
+
+        document.getElementById("rating-value").innerHTML = rating;
     }
 }

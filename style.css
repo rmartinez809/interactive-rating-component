@@ -23,7 +23,6 @@ body {
 }
 
 .rating-component {
-    display: block;
     background: rgb(34,41,51);
     background: linear-gradient(180deg, rgba(34,41,51,1) 0%, rgba(23,30,40,1) 100%);
 
@@ -31,6 +30,11 @@ body {
     width: 22rem;
     padding: 1.85rem;
 }
+
+/* FOR TESTING */
+/* .state-rating {
+    display: none;
+} */
 
 #star-icon {
     padding: 1rem;
@@ -94,5 +98,28 @@ button:hover {
 
 .state-thank-you {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.state-thank-you img {
+    margin-top: 0.5rem;
+}
+
+#rating-preview {
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius:2rem;
+    color: var(--organge-color);
+}
+
+.state-thank-you h1 {
+    margin-bottom: 0;
+}
+
+.state-thank-you p {
+    text-align: center;
+    padding: 0.25rem;
 }
 
