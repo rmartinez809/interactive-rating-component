@@ -1,3 +1,8 @@
+:root {
+    --white-color: #FBFFFF;
+    --organge-color: hsl(25, 97%, 53%);
+}
+
 body {
     width: 100vw;
     height: 90vh;
@@ -18,6 +23,7 @@ body {
 }
 
 .rating-component {
+    display: block;
     background: rgb(34,41,51);
     background: linear-gradient(180deg, rgba(34,41,51,1) 0%, rgba(23,30,40,1) 100%);
 
@@ -32,7 +38,7 @@ body {
 }
 
 h1 {
-    color: #FBFFFF;
+    color: var(--white-color);
     font-weight: 700;
     font-size: 1.75rem;
     margin-top: 1.75rem;
@@ -58,16 +64,32 @@ li {
     margin: 0.5rem;
 }
 
+li:hover {
+    background-color: var(--organge-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.rating-active {
+    background-color: var(--organge-color);
+    color: var(--white-color);
+}
+
 button {
     width: 100%;
-    background-color: hsl(25, 97%, 53%);
-    color: #FBFFFF;
+    background-color: var(--organge-color);
+    color: var(--white-color);
     border: none;
     padding: 0.8rem;
     font-size: 0.95rem;
     border-radius: 2rem;
     font-family: 'Overpass', sans-serif;
+}
 
+button:hover {
+    background-color: var(--white-color);
+    color: var(--organge-color);
+    cursor: pointer;
 }
 
 .state-thank-you {

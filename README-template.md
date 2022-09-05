@@ -37,7 +37,10 @@ Users should be able to:
   - Note the gradation on the body of the card
 - Align elements in card
 - Add hover states
+- Allow rating-state to be recorded when clicking a number (1-4)
+  - Only one rating can be selected at a time.
 - onClick() function to transition to 'thank you' state
+  - make it so a rating must be selected first
 
 ### Built with
 
